@@ -6,7 +6,7 @@ sources:
   - name: file
     type: file
     config:
-      path: "$BLUEPRINT_PATH/input.json"
+      path: "$DIR/input.json"
       format: json
 # here we list the destinations that we want to write to
 destinations:
