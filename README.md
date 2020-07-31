@@ -1,26 +1,27 @@
 # Welcome To KIProtect Blueprints
 
 This is a repository of open, freely usable privacy & security blueprints
-for KIProtect. A blueprint is a configuration file (or a collection of files)
-that specifies how KIProtect should transform or analyze data for a given
+for Kodex, our privacy and security engineering tool. A blueprint is a
+configuration file (or a collection of files)
+that specifies how Kodex should transform or analyze data for a given
 use case. Blueprints enable you to quickly implement proven solutions to
 common privacy and security challenges, e.g. for pseudonymization or
 anonymization.
 
 ## Installing
 
-The easiest way to use these blueprints is via the KIProtect command line
+The easiest way to use these blueprints is via the Kodex command line
 utility (CLI), which you can find
-[https://github.com/kiprotect/kiprotect](here). Once you have it installed
+[here](https://github.com/kiprotect/kodex). Once you have it installed
 you can download and install the blueprints in this repository using a single
 command:
 
-    kiprotect blueprints download
+    kodex blueprints download
 
 Then you can simply run them with the CLI tool. For example, to run the
 data-types example from the pseudonymization blueprints, simply execute
 
-    kiprotect run pseudonymization/examples/data-types/pseudonymize
+    kodex run pseudonymization/examples/data-types/pseudonymize
 
 If you want to learn more about all this, please check out our
 [documentation](https://kiprotect.com/docs).
